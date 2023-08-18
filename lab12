@@ -1,0 +1,7 @@
+a=int(input('enter the range'))
+l=list(range(1,a+1))
+def f(x):
+    return x*x
+
+k=map(f,l)
+print(list(k))
